@@ -58,7 +58,6 @@ ol {
   align-items: end;
   gap: 30px;
   width: 1140px;
-  height: 534px;
 }
 
 .result__video-container {
@@ -144,10 +143,6 @@ margin-bottom: 5px;
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
-}
-
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  opacity: 1;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -248,7 +243,7 @@ margin-bottom: 5px;
 }
 
 .content__card-link_current {
-  background-color: #1B1919;
+  background-color: #545050;
 }
 
 .content__card-link:active {
